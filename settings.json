@@ -1,4 +1,101 @@
-{K    "C_Cpp.default.compilerPath": "/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14",
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++-14 -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python3 -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+    "cmake.defaultVariants": {
+
+        "buildType": {
+            "default": "debug",
+            "description": "The build type.",
+            "choices": {
+                "debug": {
+                    "short": "Debug",
+                    "long": "Disable optimizations - include debug information.",
+                    "buildType": "Debug"
+                },
+                "release": {
+                    "short": "Release",
+                    "long": "Optimize for speed - exclude debug information.",
+                    "buildType": "Release"
+                },
+                "minsize": {
+                    "short": "MinSizeRel",
+                    "long": "Optimize for smallest binary size - exclude debug information.",
+                    "buildType": "MinSizeRel"
+                },
+                "reldeb": {
+                    "short": "RelWithDebInfo",
+                    "long": "Optimize for speed - include debug information.",
+                    "buildType": "RelWithDebInfo"
+                },
+                "unspecified": {
+                    "short": "Unspecified",
+                    "long": "Let CMake pick the default build type.",
+                    "buildType": "Unspecified"
+                }
+            }
+        }
+    },
+    "C_Cpp.default.compilerPath": "/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14",
     "cph.language.cpp.Command": "g++-14",
     "workbench.settings.applyToAllProfiles": [
 
@@ -7,7 +104,7 @@
     "editor.fontSize": 14,
     "editor.minimap.enabled": false,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false,
@@ -33,7 +130,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "background.fullscreen": {
-        "images": ["/Users/adarsh/Downloads/wp/3.jpg"],
+        "images": ["/Users/adarsh/Downloads/wp/4.jpg"],
         "opacity": 0.05,
         
         "size": "cover",
@@ -64,7 +161,7 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "block",
     "explorer.compactFolders": false,
-    "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Tokyo Night",
     "breadcrumbs.enabled": false,
     "editor.cursorBlinking": "solid",
 "editor.renderLineHighlight": "none",//remove line highlight 
@@ -92,5 +189,6 @@
 "workbench.startupEditor": "none",
 // "workbench.editor.showTabs": "single",
 "workbench.tips.enabled":false,
+"editor.lineHeight": 1.7,
 }
 
