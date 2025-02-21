@@ -1,0 +1,96 @@
+{K    "C_Cpp.default.compilerPath": "/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14",
+    "cph.language.cpp.Command": "g++-14",
+    "workbench.settings.applyToAllProfiles": [
+
+        "workbench.colorCustomizations"
+    ],
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "cpp": false
+    },
+    "json.schemas": [
+        
+    ],
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+        "editorCursor.foreground": "#e869d2",
+        "editorCursor.background": "#000000",
+    },
+    "codesnap.boxShadow": "",
+    "github.copilot.advanced": {
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.titleBarStyle": "native",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "background.fullscreen": {
+        "images": ["/Users/adarsh/Downloads/wp/3.jpg"],
+        "opacity": 0.05,
+        
+        "size": "cover",
+        "position": "center",
+        "interval": 0,
+        "random": false
+    },
+    "background.enabled": true,
+    "background.editor": {
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "auto",
+            "opacity": 0.05,
+        },
+        "styles": [
+            {},
+            {},
+            {}
+        ],
+        "images": [],
+        "interval": 0,
+        "random": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "workbench.sideBar.location": "right",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "GitHub Dark",
+    "breadcrumbs.enabled": false,
+    "editor.cursorBlinking": "solid",
+"editor.renderLineHighlight": "none",//remove line highlight 
+"vscode_custom_css.imports": [
+    "file:///Users/adarsh/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+    "file:///Users/adarsh/cursor.js"
+], 
+"workbench.tree.enableStickyScroll": false,
+"gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": true
+},
+"workbench.activityBar.location": "top",
+"window.commandCenter": false,
+"workbench.layoutControl.enabled": false,
+"window.customTitleBarVisibility": "never",
+"workbench.startupEditor": "none",
+// "workbench.editor.showTabs": "single",
+"workbench.tips.enabled":false,
+}
+
