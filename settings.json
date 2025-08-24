@@ -1,149 +1,152 @@
 {
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "code-runner.executorMap": {
-        "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "zig": "zig run",
-        "cpp": "cd $dir && g++-14 -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "php": "php",
-        "python": "python3 -u",
-        "perl": "perl",
-        "perl6": "perl6",
-        "ruby": "ruby",
-        "go": "go run",
-        "lua": "lua",
-        "groovy": "groovy",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash",
-        "fsharp": "fsi",
-        "csharp": "scriptcs",
-        "vbscript": "cscript //Nologo",
-        "typescript": "ts-node",
-        "coffeescript": "coffee",
-        "scala": "scala",
-        "swift": "swift",
-        "julia": "julia",
-        "crystal": "crystal",
-        "ocaml": "ocaml",
-        "r": "Rscript",
-        "applescript": "osascript",
-        "clojure": "lein exec",
-        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-        "racket": "racket",
-        "scheme": "csi -script",
-        "ahk": "autohotkey",
-        "autoit": "autoit3",
-        "dart": "dart",
-        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-        "haskell": "runghc",
-        "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lisp": "sbcl --script",
-        "kit": "kitc --run",
-        "v": "v run",
-        "sass": "sass --style expanded",
-        "scss": "scss --style expanded",
-        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "sml": "cd $dir && sml $fileName",
-        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "mojo": "mojo run",
-        "erlang": "escript",
-        "spwn": "spwn build",
-        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
-        "gleam": "gleam run -m $fileNameWithoutExt"
-    },
-    "code-runner.runInTerminal": true,
-    "cmake.defaultVariants": {
-        "buildType": {
-            "default": "debug",
-            "description": "The build type.",
-            "choices": {
-                "debug": {
-                    "short": "Debug",
-                    "long": "Disable optimizations - include debug information.",
-                    "buildType": "Debug"
-                },
-                "release": {
-                    "short": "Release",
-                    "long": "Optimize for speed - exclude debug information.",
-                    "buildType": "Release"
-                },
-                "minsize": {
-                    "short": "MinSizeRel",
-                    "long": "Optimize for smallest binary size - exclude debug information.",
-                    "buildType": "MinSizeRel"
-                },
-                "reldeb": {
-                    "short": "RelWithDebInfo",
-                    "long": "Optimize for speed - include debug information.",
-                    "buildType": "RelWithDebInfo"
-                },
-                "unspecified": {
-                    "short": "Unspecified",
-                    "long": "Let CMake pick the default build type.",
-                    "buildType": "Unspecified"
-                }
-            }
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  //MesloLGS NF
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++-15 -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python3 -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "mojo": "mojo run",
+    "erlang": "escript",
+    "spwn": "spwn build",
+    "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+    "gleam": "gleam run -m $fileNameWithoutExt"
+  },
+  "code-runner.runInTerminal": true,
+  "cmake.defaultVariants": {
+    "buildType": {
+      "default": "debug",
+      "description": "The build type.",
+      "choices": {
+        "debug": {
+          "short": "Debug",
+          "long": "Disable optimizations - include debug information.",
+          "buildType": "Debug"
+        },
+        "release": {
+          "short": "Release",
+          "long": "Optimize for speed - exclude debug information.",
+          "buildType": "Release"
+        },
+        "minsize": {
+          "short": "MinSizeRel",
+          "long": "Optimize for smallest binary size - exclude debug information.",
+          "buildType": "MinSizeRel"
+        },
+        "reldeb": {
+          "short": "RelWithDebInfo",
+          "long": "Optimize for speed - include debug information.",
+          "buildType": "RelWithDebInfo"
+        },
+        "unspecified": {
+          "short": "Unspecified",
+          "long": "Let CMake pick the default build type.",
+          "buildType": "Unspecified"
         }
-    },
-    "C_Cpp.default.compilerPath": "/opt/homebrew/Cellar/gcc/14.2.0_1/bin/g++-14",
-    "cph.language.cpp.Command": "g++-14",
-    "workbench.settings.applyToAllProfiles": [],
-    "editor.fontSize": 14,
-    "editor.minimap.enabled": false,
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "cpp": false
-    },
-    "editor.stickyScroll.enabled": false,
-    "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#e869d2",
-        "editorCursor.background": "#000000",
-        "terminal.background": "#00000000"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.titleBarStyle": "native",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "background.fullscreen": {
-        "images": ["file:///Users/adarsh/Downloads/wp/73.jpg"],//41,56,59,0,3,4,39,40,84,73,78,65,96
-        "opacity": 0.04,
-        "size": "cover",
-        "position": "center",
-        "interval": 0,
-        "random": false,
-    },
-    "background.enabled": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "git.autofetch": true,
-    "workbench.sideBar.location": "right",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorStyle": "block",
-    "explorer.compactFolders": false,
-    "breadcrumbs.enabled": false,
-    "editor.cursorBlinking": "solid",
-"editor.renderLineHighlight": "none",//remove line highlight 
-"vscode_custom_css.imports": [
+      }
+    }
+  },
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+  "workbench.settings.applyToAllProfiles": [],
+  "editor.fontSize": 14,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "cpp": false
+  },
+  "editor.stickyScroll.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#d064ff",
+    "editorCursor.background": "#000000",
+    "terminal.background": "#00000000",
+    "terminalCursor.foreground": "#dc6efa"
+    // "terminalCursor.background": "#aa1fe1"
+  },
+  "window.titleBarStyle": "native",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "background.fullscreen": {
+    "images": ["file:///Users/adarsh/Downloads/wp/8.png"],
+    //8.png 74 89
+    //3,10,12,15,19,22,24
+    "opacity": 0.05,
+    "size": "contain",
+    "position": "center",
+    "interval": 0,
+    "random": false
+  },
+  "background.enabled": true, // <-fixhere->
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  "workbench.sideBar.location": "right",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "explorer.compactFolders": false,
+  "editor.cursorBlinking": "solid",
+  "editor.renderLineHighlight": "none",
+  //remove line highlight
+  "vscode_custom_css.imports": [
     "file:///Users/adarsh/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
     "file:///Users/adarsh/cursor.js",
     "file:////Users/adarsh/Developer/mydotfiles/custom.css"
-], 
-"workbench.tree.enableStickyScroll": false,
-"gitlens.views.scm.grouped.views": {
+  ],
+  "workbench.tree.enableStickyScroll": false,
+  "gitlens.views.scm.grouped.views": {
     "commits": true,
     "branches": true,
     "remotes": true,
@@ -154,28 +157,120 @@
     "repositories": false,
     "searchAndCompare": false,
     "launchpad": true
-},
-"workbench.activityBar.location": "top",
-"window.commandCenter": false,
-"workbench.layoutControl.enabled": false,
-"workbench.startupEditor": "none",
-"workbench.tips.enabled":false,
-"editor.lineHeight": 1.7,
-"editor.smoothScrolling":true,
-"workbench.list.smoothScrolling":true,
-"terminal.integrated.smoothScrolling": true,
-"workbench.colorTheme": "Tokyo Night",
-"gitlens.gitCommands.skipConfirmations": [
+  },
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "editor.lineHeight": 1.8,
+  //1.8
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
     "stash-push:command",
     "switch:command"
-],
-"excalidraw.theme": "dark",
-"[javascript]": {
+  ],
+  "excalidraw.theme": "dark",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"workbench.statusBar.visible": false,
-"workbench.editor.tabSizingFixedMaxWidth": 150,
-"window.customTitleBarVisibility": "never",
-"editor.renderWhitespace": "none",
+  },
+  "workbench.editor.tabSizingFixedMaxWidth": 150,
+  "editor.renderWhitespace": "none",
+  "debug.disassemblyView.showSourceCode": false,
+  "animations.Enabled": true,
+  "cph.language.cpp.Command": "g++-15",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "editor.fontLigatures": true,
+  // "editor.fontLigatures": "'calt', 'ss01', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'ss10', 'liga'",
+  // "editor.guides.indentation": false,
+  "npm.enableRunFromFolder": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/fn/7_ctbd8n111br2rt1hc0btkh0000gn/T/postman-http-request-pre-request.instructions.md": true
+  },
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "C_Cpp.default.intelliSenseMode": "macos-gcc-arm64",
+  "C_Cpp.default.includePath": [
+    "/opt/homebrew/include",
+    "/opt/homebrew/include/c++/15"
+  ],
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "cph.general.defaultLanguage": "cpp",
+  "cph.language.c.Command": "gcc ",
+  "cph.general.showLiveUserCount": true,
+  "cph.language.cpp.Args": "-DDEBUG",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "workbench.editor.showTabs": "none",
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "storage.modifier", //static keyword
+          "storage.type", //class keyword
+          "support.class.builtin",
+          "keyword.control",
+          "constant.language",
+          "entity.other.attribute-name",
+          "entity.name.method"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // "editor.fontFamily": "Monaspace Radon Frozen,Monaspace Krypton Frozen,Monaspace Argon Frozen,Fira Code,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "editor.minimap.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.customTitleBarVisibility": "never",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "catppuccin-perfect-latte",
+  "json.schemas": [
+    
+  ]
 }
